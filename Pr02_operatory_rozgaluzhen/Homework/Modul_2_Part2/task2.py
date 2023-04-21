@@ -22,6 +22,8 @@ elif n == 10:
     print ('October')
 elif n == 11:
     print ('November')
-else:
+elif n == 12:
     print ('December')
+else:
+    print ('Please, input correct number!')
 print ('See you!')

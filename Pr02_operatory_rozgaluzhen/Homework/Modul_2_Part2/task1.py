@@ -12,6 +12,8 @@ elif n == 5:
     print ('Friday')
 elif n == 6:
     print ('Saturday')
-else:
+elif n == 7:
     print ('Sunday')
+else:
+    print ('Please, input correct number!')
 print ('See you!')
