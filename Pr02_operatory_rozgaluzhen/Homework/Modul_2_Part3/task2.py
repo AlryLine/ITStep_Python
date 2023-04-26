@@ -24,7 +24,8 @@ elif choice == 6:
     print (n**5)
 elif choice == 7:
     print (n**6)
-else:
-    choice == 8
+elif choice == 8:
     print (n**7)
+else:
+    print ('Error')
 print ('Bye!')
