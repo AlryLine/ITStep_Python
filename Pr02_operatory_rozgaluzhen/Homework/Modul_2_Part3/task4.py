@@ -32,10 +32,11 @@ else:
 if zp1 > zp2 and zp1 > zp3:
     print ('Кращий з продажу - перший менеджер')
     print (zp1 + 200) 
-if zp2 > zp1 and zp2 > zp3:
+elif zp2 > zp1 and zp2 > zp3:
     print ('Кращий з продажу - другий менеджер')
     print (zp2 + 200)
-if zp3 > zp1 and zp3 > zp2:
+else:
+    zp3 > zp1 and zp3 > zp2
     print ('Кращий з продажу - третій менеджер')
     print (zp3 + 200)
 
