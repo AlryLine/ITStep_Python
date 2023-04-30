@@ -8,6 +8,8 @@ print ('2: m')
 choice = int(input('Input your choice: '))
 if choice == 1:
     print (a + b + c)
-else:
+elif choice == 2:
     print (a * b * c)
+else:
+    print ('Error')
 print ('Thanks, have a hice day!')

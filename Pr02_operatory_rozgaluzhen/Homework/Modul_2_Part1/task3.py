@@ -12,6 +12,8 @@ if choice == 1:
     print (mi)
 elif choice == 2:
     print (inch)
-else:
+elif choice == 3:
     print (yd)
+else:
+    print ('Error')    
 print ('Thank you, bye!')

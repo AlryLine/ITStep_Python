@@ -5,16 +5,17 @@ print ('1: Kyivstar -> Kyivstar')
 print ('2: Lifecell -> Lifecell')
 print ('3: Kyivstar -> Lifecell')
 print ('4: Lifecell -> Kyivstar')
-
+t1 = 1.5 #grn/min
+t2 = 1.46 #grn/min
+t3 = 2.5 #grn/min
+t4 = 2.78 #grn/min
 choice = int(input('Your choice: '))
-if t == 1:
-    print ('1.5grn/min')
-elif t == 2:
-    print ('1.46grn/min')
-elif t == 3:
-    print ('2.5grn/min')
-elif t == 4:
-    print ('2.78grn/min')
-s = choice * t
-print (s)
+if choice == 1:
+    print (t * t1)
+elif choice == 2:
+    print (t * t2)
+elif choice == 3:
+    print (t * t3)
+elif choice == 4:
+    print (t * t4)
 print ('Thanks, goodbye!')

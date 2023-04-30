@@ -4,6 +4,8 @@ if n > 0:
     print ('Number is positive')
 elif n < 0:
     print ('Number is negative')
-else:
+elif n == 0:
     print ('Number is equal to zero')
+else:
+    print ('Error')
 print ('Okay, goodbye!')

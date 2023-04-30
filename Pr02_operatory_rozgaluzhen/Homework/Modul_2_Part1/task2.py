@@ -14,6 +14,8 @@ if choice == 1:
     print (mx)
 elif choice == 2:
     print (mn)
-else: 
-    print(average)    
+elif choice == 3: 
+    print(average)
+else:
+    print ('Error')    
 print ('Bye!')
