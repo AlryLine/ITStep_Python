@@ -18,7 +18,3 @@ print (sum1)
 print (sum2)
 print (sum3)
 print ((sum1 + sum2 + sum3) // 3)
-
-    #sum1 += a if a%2 else 0
-    #sum2 += a if not a%2 else 0
-    #sum3 += a if a%9 else 0
