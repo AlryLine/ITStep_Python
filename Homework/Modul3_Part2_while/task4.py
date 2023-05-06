@@ -9,9 +9,9 @@ while n != 7:
         mx = n
     elif mn > n:
         mn = n
-    print ('Summa=', sum_n)
-    print ('Max=', mx)
-    print ('Min=', mn)
+    print ('Summa =', sum_n)
+    print ('Max =', mx)
+    print ('Min =', mn)
 else:
     n == 7
     print ('Good bye!')
