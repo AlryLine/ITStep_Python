@@ -28,7 +28,7 @@ elif choice == 5:
     n = 10
     for i in range (n//2):
         print (' '*i, (n-2*i)*'*', ' '*i, sep= ' ')
-    for i in range (n//3, -1, -1):
+    for i in range (n//2-1, -1, -1):
         print (' '*i, (n-2*i)*'*', ' '*i, sep= ' ')
 else:
     print ('Будь-ласка, введіть коректне число від 1 до 5!')
