@@ -1,7 +1,7 @@
-s = input ()
-s = s.lower ()
-s = s.replace (' ', '')
-if s != s [::-1]:
+text = input ()
+text = text.lower ()
+text = text.replace (' ', '')
+if text != text [::-1]:
     print ('Не паліндром')
 else:
     print ('Паліндром')
