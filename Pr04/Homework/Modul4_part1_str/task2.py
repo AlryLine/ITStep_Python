@@ -1,6 +1,6 @@
-t = input ('Input text: ')
-rw = input ('Input words: ').split (' ')
+text = input ('Input text: ')
+reserved_words = input ('Input words: ').split (' ')
 
-for w in rw:
-    t = t.replace (w, w.upper())
-print (t)
+for word in reserved_words:
+    text = text.replace (word, word.upper())
+print (text)
