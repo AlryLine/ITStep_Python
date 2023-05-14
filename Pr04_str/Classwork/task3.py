@@ -1,6 +1,0 @@
-s = input('s = ')
-f = input('f = ')
-find = s.find (f)
-print (find)
-count = s.count ('и')
-print (count)
