@@ -9,12 +9,12 @@ for i in range (n):
 count1 = 0
 count2 = 0
 count3 = 0
-for i in num_lst:
-    if i < 0:
+for j in num_lst:
+    if j < 0:
         count1 += 1
-    elif i > 0:
+    elif j > 0:
         count2 += 1
-    elif i == 0:
+    elif j == 0:
         count3 += 1
 
 print (num_lst)
