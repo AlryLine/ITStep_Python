@@ -1,5 +1,5 @@
 class Auto:
-    def __init__(self, model, year, manufacturer, engine_volume, color, price = 0):
+    def __init__(self, model, year, manufacturer, engine_volume, color, price):
         self.model = model
         self.year = year
         self.manufacturer = manufacturer
@@ -12,20 +12,18 @@ class Auto:
     def put_price (self, price):
         self.__price = price
 
-    def show_info (self):
+    def get_info (self):
         return (self.model, self.year, self.manufacturer, self.engine_volume, self.color, self.__price)
+    def show_info (self):
+        print ('Представляю вам автомобіль: ')
     
-auto = Auto(1, 2, 3, 4, 5, 6)
-auto.model = 'Lamborgini Huracan'
-auto.year = 2014
-auto.manufacturer = 'Lamborgini'
-auto.engine_volume = 5
-auto.color = 'хамелеон'
-auto.put_price (230000)
+auto = Auto('Lamborgini Huracan', 2014, 'Lamborgini', '5 літрів', 'хамелеон', 6)
 
+auto.show_info ()
+auto.put_price (230000)
 print ('Модель автомобіля: ', auto.model)
 print ('Рік випуску: ', auto.year)
 print ('Виробник: ', auto.manufacturer)
-print ('Об\'єм двигуна: ', auto.engine_volume,'літрів')
+print ('Об\'єм двигуна: ', auto.engine_volume)
 print ('Колір: ', auto.color)
 print ('Ціна: ', auto.get_price(),'$')
