@@ -16,6 +16,8 @@ class Tiger(Animal):
         super().show_info()
         print(self.sound)
     
+    def sound (self):
+        print ('Grr!')
 
 class Crocodile(Animal):
     def __init__(self, cover, paws, tail, habitat) -> None:
@@ -40,6 +42,7 @@ class Kangaroo(Animal):
 
 tiger = Tiger('Помаранчева вовна в полоску,', 'чотири лапи,', 'має хвіст,', 'ричить.')
 tiger.show_info ()
+tiger.sound ()
 crocodile = Crocodile('Шкіра має луску,', 'чотири лапи,', 'має хвіст,', 'живе у воді, але може перебувати на суші недовго.')
 crocodile.show_info ()
 kangaroo = Kangaroo('Бежева вовна,', 'чотири лапи,', 'має хвіст,', 'стрибає на двох задніх лапах.')
