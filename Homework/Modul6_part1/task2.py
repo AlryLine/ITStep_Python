@@ -11,6 +11,9 @@ class Book:
         return self.__author
     def put_author (self, author):
         self.__author = author
+        
+    def __str__ (self):
+        return f'Ціна: {self.price} грн'    
 
     def print_message (self):
         print ('Увага! Книга з віковим обмеженням (18+)')
@@ -28,5 +31,5 @@ print ('Рік видання:', book.year)
 print ('Видавництво:', book.publisher)
 print ('Жанр:', book.genre)
 print ('Автор:', book.get_author())
-print ('Ціна:', book.price, 'грн')
+print (str(book))
 book.print_message ()

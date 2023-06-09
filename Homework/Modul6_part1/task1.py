@@ -11,7 +11,10 @@ class Auto:
         return self.__price
     def put_price (self, price):
         self.__price = price
-
+        
+    def __str__ (self):
+        return f'Рік випуску: {self.year}'
+    
     def get_info (self):
         return (self.model, self.year, self.manufacturer, self.engine_volume, self.color, self.__price)
     def show_info (self):
@@ -21,9 +24,9 @@ auto = Auto('Lamborgini Huracan', 2014, 'Lamborgini', '5 літрів', 'хам�
 
 auto.show_info ()
 auto.put_price (230000)
-print ('Модель автомобіля: ', auto.model)
-print ('Рік випуску: ', auto.year)
-print ('Виробник: ', auto.manufacturer)
-print ('Об\'єм двигуна: ', auto.engine_volume)
-print ('Колір: ', auto.color)
-print ('Ціна: ', auto.get_price(),'$')
+print ('Модель автомобіля:', auto.model)
+print (str(auto))
+print ('Виробник:', auto.manufacturer)
+print ('Об\'єм двигуна:', auto.engine_volume)
+print ('Колір:', auto.color)
+print ('Ціна:', auto.get_price(),'$')
