@@ -15,7 +15,7 @@ class Stadium:
         return f'Вмісткість глядачів: {self.capacity}'   
 
     def get_info (self):
-        return (self.name, self.year, self.country, self.city, self.__capacity)
+        return (self.name, self.year, self.country, self.__city, self.capacity)
     def show_info (self):
         print ('Є такий відомий стадіон:')
 
