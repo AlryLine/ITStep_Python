@@ -6,14 +6,21 @@ class Birds (Animal):
         super().__init__(cover, paws, tail, habitat, movement)
         self.wings = wings
         self.color_of_feathers = color_of_feathers
-        self.beak = beak
+        self.__beak = beak
         self.sound = sound
+
+    def get_beak (self):
+        return self.__beak
+    def put_beak (self, beak):
+        self.__beak = beak
 
     def determine_color_of_feathers (self, color_of_feathers):
         if color_of_feathers == 'чорний':
             print ('Птах має пір\'я чорного кольору.')
         elif color_of_feathers == 'білий':
             print ('Птах має пір\'я білого кольору.')
+        else:
+            print ('Птах має пір\'я іншого кольору.')    
 
     def sing_of_bird (self, wings):
         if wings == 1:
