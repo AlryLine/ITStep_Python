@@ -21,3 +21,4 @@ class Artiodactyls (Mammals):
             
     def show_info (self):
         super().show_info()
+        print (self.__hooves, self.fingers)

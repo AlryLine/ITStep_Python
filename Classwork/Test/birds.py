@@ -37,4 +37,5 @@ class Birds (Animal):
                  
     def show_info(self):
         super().show_info()
+        print (self.wings, self.color_of_feathers, self.__beak, self.egg_laying)
         
