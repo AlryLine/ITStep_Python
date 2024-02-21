@@ -1,0 +1,8 @@
+text = input ('Input text: ')
+point = ('.')
+excl_mark = ('!')
+ques_mark = ('?')
+count1 = text.count (point)
+count2 = text.count (excl_mark)
+count3 = text.count (ques_mark)
+print (count1 + count2 + count3)
